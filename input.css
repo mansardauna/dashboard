@@ -23,6 +23,9 @@ body{
   margin: auto;
   margin-left: 0;
 }
+.meeting{
+  width: 92%;
+}
 .sustain{
   width: 95%;
   margin-top: 1rem;
@@ -107,4 +110,7 @@ body{
 }
 .online{
   border: 2px solid white;
+}
+.down{
+  height: 90vh;
 }

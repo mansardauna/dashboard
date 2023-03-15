@@ -521,6 +521,10 @@ video {
   position: relative;
 }
 
+.bottom-0 {
+  bottom: 0px;
+}
+
 .bottom-2 {
   bottom: 0.5rem;
 }
@@ -838,6 +842,10 @@ video {
   padding: 0.75rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -972,6 +980,10 @@ body{
   margin-left: 0;
 }
 
+.meeting{
+  width: 92%;
+}
+
 .sustain{
   width: 95%;
   margin-top: 1rem;
@@ -1071,6 +1083,10 @@ body{
 
 .online{
   border: 2px solid white;
+}
+
+.down{
+  height: 90vh;
 }
 
 .hover\:bg-zinc-200:hover {
