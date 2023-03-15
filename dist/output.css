@@ -537,24 +537,19 @@ video {
   margin: auto;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
 }
 
 .my-3 {
@@ -570,12 +565,12 @@ video {
   margin-left: 0.125rem;
 }
 
-.ml-12 {
-  margin-left: 3rem;
+.ml-1 {
+  margin-left: 0.25rem;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
+.ml-12 {
+  margin-left: 3rem;
 }
 
 .ml-4 {
@@ -612,10 +607,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -662,8 +653,8 @@ video {
   width: 1.25rem;
 }
 
-.w-52 {
-  width: 13rem;
+.w-56 {
+  width: 14rem;
 }
 
 .w-6 {
@@ -676,6 +667,10 @@ video {
 
 .w-9 {
   width: 2.25rem;
+}
+
+.w-9\/12 {
+  width: 75%;
 }
 
 .w-fit {
@@ -803,6 +798,10 @@ video {
   padding-top: 1.25rem;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -866,9 +865,19 @@ video {
   color: rgb(75 85 99 / var(--tw-text-opacity));
 }
 
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
+}
+
 .text-zinc-500 {
   --tw-text-opacity: 1;
   color: rgb(113 113 122 / var(--tw-text-opacity));
+}
+
+.text-zinc-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 91 / var(--tw-text-opacity));
 }
 
 .text-zinc-800 {
@@ -879,17 +888,32 @@ video {
 body{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   background-color: rgb(252, 250, 246);
+  width: 100%;
 }
 
 .today{
   height: 98vh;
-  width: 53%;
+  width: 33%;
+}
+
+.month{
+  border-right: 2px solid lightgray;
+  width: 37%;
+  padding: 2rem;
+  padding-top: .5rem;
+  height: 98vh;
+  margin: auto;
+  margin-left: 0;
 }
 
 .sustain{
   width: 95%;
   margin-top: 1rem;
-  font-size: 20px;
+  font-size: 22px;
+}
+
+.wrapper{
+  background-color: black;
 }
 
 .card{
@@ -918,7 +942,7 @@ body{
 }
 
 .time{
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12px;
   color: grey;
 }
@@ -942,13 +966,37 @@ body{
   height: 2.5rem;
 }
 
+.txt{
+  font-size: 14px;
+}
+
+.small{
+  font-size: 13px;
+  color: gray;
+  font-weight: 500;
+}
+
+.feedfig{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1rem;
+  padding: .3rem;
+  font-size: .6rem;
+}
+
+.header{
+  width: 96%;
+  margin-bottom: 1rem;
+}
+
+.next{
+  padding: 1rem;
+  border: 1px solid lightgray;
+  width: 96%;
+}
+
 .hover\:bg-zinc-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 231 / var(--tw-bg-opacity));
-}
-
-@media (min-width: 1024px) {
-  .lg\:flex {
-    display: flex;
-  }
 }
