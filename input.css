@@ -99,3 +99,10 @@ body{
   border: 1px solid lightgray;
   width: 96%;
 }
+.boxes{
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 96%;
+  row-gap: 20px;
+
+}
