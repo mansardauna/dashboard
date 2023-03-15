@@ -78,7 +78,7 @@ body{
 }
 .small{
   font-size: 13px;
-  color: gray;
+  color: rgb(165, 162, 162);
   font-weight: 500;
 }
 .feedfig{
@@ -104,5 +104,7 @@ body{
   grid-template-columns: auto auto;
   width: 96%;
   row-gap: 20px;
-
+}
+.online{
+  border: 2px solid white;
 }
