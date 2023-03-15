@@ -9,9 +9,11 @@ body{
   background-color: rgb(252, 250, 246);
   width: 100%;
 }
-
+.font-semibold{
+  font-weight: 500;
+}
 .today{
-  height: 98vh;
+  height: 97vh;
   width: 33%;
 }
 .month{
@@ -42,6 +44,9 @@ body{
   font-weight: 500;
   width: 7rem;
   margin: 2rem auto 0;
+}
+.week{
+  font-weight: 500;
 }
 .med{
   border-left: 2px solid lightgray;
