@@ -136,3 +136,10 @@ body{
 .sidebar{
   display: none;
 }
+#preview{
+  display: block;
+  overflow-x: hidden;
+}
+#page{
+  display: none;
+}
